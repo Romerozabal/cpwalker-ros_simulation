@@ -10,7 +10,7 @@ The typical connections of the exoskeleton system look like the left _Figure 1_,
 The exoskeleton model node substitutes the function of the physical system and the acquisition and processing node of the right _Figure 1_. This node subscribes to the Vout topics, calculates the behavior of the system and publish through ROS topics the estimated angle position of each joint, see left _Figure 2_. The **`simulated_exo_control_node`** subscribes to those topics, calculates the needed Vout to follow the desired path and publishes that value through Vout ROS topics, see right _Figure 2_. 
 
 <p align="center">
-  <image src = "Exoskeleton_communication_diagram.png" width = "400" />
+  <image src = "images/Exoskeleton_communication_diagram.png" width = "400" />
    <image src = "images/rosgraph_acquisitio_processing_control.png" width = "400" />
 </p>
 <p align="center">
