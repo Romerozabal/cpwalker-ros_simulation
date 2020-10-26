@@ -18,10 +18,10 @@ The exoskeleton model node substitutes the function of the physical system and t
 </p>
 
 <p align="center">
-  <image src = "images/simulation_exo_control_node.png" width = "400" />
   <image src = "images/exo_model_node.png" width = "400" />
+  <image src = "images/simulation_exo_control_node.png" width = "400" />
 </p>
 <p align="center">
-  <b>Figure 2. Left, ROS `exo_model_node`. Right `simulated_control_node` </b>
+  <b>Figure 2. Left, ROS exo_model_node. Right simulated_control_node </b>
 </p>
 
