@@ -11,12 +11,14 @@ The exoskeleton model node substitutes the function of the physical system and t
 
 <p align="center">
   <image src = "images/Physical_conections_cpwalker_exo_1.png" width = "500" />
+   <image src = "images/rosgraph_acquisitio_processing_control.png" width = "400" />
 </p>
 <p align="center">
-  <b>Figure 1. Physical connection to the robot.</b>
+  <b>Figure 1. Left physical connection to the robot, right ROS topics communication between the nodes.</b>
 </p>
 
 <p align="center">
+
   <image src = "images/rosgraph_acquisitio_processing_control.png" width = "400" />
 </p>
 <p align="center">
