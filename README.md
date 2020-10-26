@@ -12,12 +12,16 @@ The exoskeleton model node substitutes the function of the physical system and t
 <p align="center">
   <image src = "images/Physical_conections_cpwalker_exo_1.png" width = "500" />
 </p>
+<p align="center">
+  <b>Figure 1. Physical connection to the robot.</b>
+</p>
 
-<div style="text-align:center"><image src = "images/Physical_conections_cpwalker_exo_1.png" width = "500"/></div>
-Figure 1. Physical connection to the robot.
-  
-<div style="text-align:center"><image src = "images/rosgraph_acquisitio_processing_control.png" width = "400"/></div>
+<p align="center">
+  <image src = "images/rosgraph_acquisitio_processing_control.png" width = "400" />
+</p>
 Figure 2. ROS topics communication between the nodes.
   
-<div style="text-align:center"><image src = "images/exo_model_node_1.png" width = "400"/></div>
+<p align="center">
+  <image src = "images/exo_model_node_1.png" width = "400" />
+</p>
 Figure 3. ROS exo model node, subscribes to Vout and publish the angle of each joint.
