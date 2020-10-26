@@ -1,2 +1,4 @@
-# cpwalker_simulation
-This repository aims to create a simulation environment where you can test nodes for the CPWalker platform.
+# cpwalker-ros_simulation
+This repository aims to create a simulation environment where you can test ROS nodes for the CPWalker platform without connecting to the real platform. De esta forma es posible desarrollar nuevas estrategias directamente en el entorno ROS con cambios mínimos respecto a los que se desplegarán en la plataforma real.
+
+The virtual environment is based on the "exo_model_node" a ROS node that simulates the dinamics of the exoskeleton of the robotic platform. Inside the exo_model folder you will find a Simulink file through which the exo_model_node can be generated. Whithin this Simulink are the transfer functions of the joints of the CPWalker exoskelton that represent the mathematical models of the joints that defines the exoskeleton dinamics. This Simulink file has been developed using the Matlab ROS toolbox and in order to transform it into a standalone ROS Node you must follow the instructions of the Generate a Standalone ROS Node from Simulink tutorial.
