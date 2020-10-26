@@ -1,0 +1,33 @@
+exo_hw:
+  verbose: False
+  sampling_frequency: 500
+  joints:
+    # Uncomment connected joint and enable corresponding hardware
+    right_knee:
+      can_id: 95
+      Potentiometer: True
+      Gauge: False
+      FSR1: False
+      FSR2: False
+      has_motor: True  # Should be true for non-passive joints
+    left_knee:
+      can_id: 90
+      Potentiometer: True
+      Gauge: False
+      FSR1: False
+      FSR2: False
+      has_motor: True  # Should be true for non-passive joints
+    right_hip:
+      can_id: 75
+      Potentiometer: True
+      Gauge: False
+      FSR1: False
+      FSR2: False
+      has_motor: True  # Should be true for non-passive joints
+    left_hip:
+      can_id: 70
+      Potentiometer: True
+      Gauge: False
+      FSR1: False
+      FSR2: False
+      has_motor: True  # Should be true for non-passive joints
